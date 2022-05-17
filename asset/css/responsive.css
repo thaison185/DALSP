@@ -39,9 +39,6 @@
     #nav>li:first-child {
         display: inline-block;
     }
-    #header .btn-search {
-        display: none;
-    }
     #header .btn-menu {
         display: block;
     }
