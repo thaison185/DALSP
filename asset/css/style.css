@@ -175,7 +175,7 @@ img{
     position: relative;
     padding-top: 50%;
     margin-top: 46px;
-    background: url(../img/banner.jpg) top center /cover no-repeat;
+    background: url(../img/thumnail.png) top center /cover no-repeat;
 }
 
 .text-content {
@@ -213,7 +213,10 @@ img{
     margin: 10px;
     font-size: 30px;
     font-weight: 400;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 32px;
+
 }
 
 #content .section-slogan {
@@ -253,4 +256,32 @@ img{
     pointer-events: none;
     color: #aaa!important;
     font-weight: normal!important;
+}
+
+.started{
+    display: flex;
+}
+
+.started .content{
+    text-align: justify;
+    margin: 0 30px ;
+    flex-grow: 2;
+}
+
+.started .thumbnail{
+    flex-grow: 1;
+}
+
+a.link{
+    display: block;
+    width:100%
+}
+
+a.link>img{
+
+    border-radius: 50px;
+}
+
+a.link>img:hover{
+    opacity: 0.7;
 }
