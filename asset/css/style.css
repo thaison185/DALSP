@@ -12,6 +12,14 @@ html {
     scroll-behavior: smooth;
 }
 
+.red{
+    color: red;
+}
+
+.blue-text{
+    color:#00B0F0;
+}
+
 .pt8{
     padding-top: 8px;
 }
